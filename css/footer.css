@@ -1,0 +1,160 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(teal, rgb(0, 83, 83));
+    color: white;
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 4px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 40px;
+    padding-bottom: 45px;
+}
+
+.colum1{
+   max-width: 400px; 
+}
+
+.colum1 h2{
+    font-size: 16px;
+    color: white;
+}
+
+.colum1 p{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #C7C7C7;
+    text-align: justify;
+}
+
+.colum2{
+    max-width: 400px;
+}
+
+.colum2 h2{
+    font-size: 16px;
+    color: white;
+}
+
+.colum2 label{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #C7C7C7;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 30px;
+    height: 30px;
+}
+
+.row label{
+    margin-top: 7.2px;
+    margin-left: 12px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h2{
+    font-size: 16px;
+    color: white;
+}
+.colum3 label{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #C7C7C7;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 30px;
+    height: 30px;
+}
+
+.row2 label{
+    margin-top: 7.2px;
+    margin-left: 12px;
+    max-width: 150px;   
+}
+
+.container-footer{
+    width: 100%;
+    background: rgb(0, 61, 61);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+    font-size: 12px;
+}
+
+
+@media (min-width:1180px){
+    .contenedor {
+        width: 1070px;
+    }
+}
+
+@media screen and (max-width: 946px){
+    .colum1{
+        max-width: 100%;
+    }
+    
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum2, .colum1{
+        margin-bottom: 40px;
+    }
+}
+
+
+
+@media screen and (max-width: 700px){
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum2, .colum3,{
+        margin-left: 40px;
+    }
+}
+

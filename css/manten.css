@@ -1,0 +1,28 @@
+body{
+    background: url(../img/manten.jpg) no-repeat;
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+#imgmanten{
+    width: 200px;
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
